@@ -1,0 +1,9 @@
+#root {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 500px auto 500px;
+  width: 100%;
+  height: 100dvh;
+  background: #242424;
+  color: #ffffff;
+}
