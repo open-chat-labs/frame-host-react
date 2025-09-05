@@ -10,7 +10,7 @@ function Content({ onSelectLeftChat, onSelectRightChat }: Props) {
   return (
     <div className="content">
       <div className="header">
-        <h3>VaultBet</h3>
+        <h3>React Host</h3>
       </div>
       <div className="middle">
         <div className="left">

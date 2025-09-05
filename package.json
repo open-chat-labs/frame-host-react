@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@open-ic/openchat-xframe": "^1.0.1",
+    "@open-ic/openchat-xframe": "^1.0.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

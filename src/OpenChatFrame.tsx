@@ -1,7 +1,7 @@
-import { useEffect, useRef, useState } from "react";
-import "./OpenChatFrame.css";
 import { initialise } from "@open-ic/openchat-xframe";
 import { OpenChatXFrame } from "@open-ic/openchat-xframe/lib/types";
+import { useEffect, useRef, useState } from "react";
+import "./OpenChatFrame.css";
 
 const purple = "rgb(182, 95, 247)";
 const txt = "#ffffff";
@@ -15,8 +15,11 @@ function initialiseOpenChatFrame(
   return initialise(iframe, {
     targetOrigin: "https://oc.app",
     initialPath: path,
+    settings: {
+      restrictTo: "selected_community",
+    },
     theme: {
-      name: "vaultbet",
+      name: "purplish",
       base: "dark",
       overrides: {
         burst: false,
